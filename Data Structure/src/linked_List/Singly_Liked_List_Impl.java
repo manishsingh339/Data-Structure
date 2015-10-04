@@ -3,9 +3,6 @@
  */
 package linked_List;
 
-import java.awt.List;
-
-import org.omg.Messaging.SyncScopeHelper;
 
 /**
  * @author Manish Kumar Singh
@@ -55,7 +52,7 @@ public class Singly_Liked_List_Impl {
         //lList.display();
         System.out.println("Print linkedlist after reversing: " + lList);
         
-        System.out.println("Removing first element: "+lList.removeFromPos(1));
+        System.out.println("Removing first element: "+lList.removeFromPos(4));
         System.out.println("Print linkedlist: " + lList);
 	}
 	

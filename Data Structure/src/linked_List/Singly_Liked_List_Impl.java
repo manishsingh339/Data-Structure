@@ -235,7 +235,7 @@ class LinkedList{
              current = after;       // advance the cursor
              after = tmp;           // the node after is the one preserved earlier.
          }
-         head.next = null;         // null-out next on what was the start element 
+         head.setNext(null);         // null-out next on what was the start element 
          head = current;        	
     }
     
@@ -245,9 +245,9 @@ class LinkedList{
 class Node{
 	
 	// Refers next node in the chain, or null if there isn't one.
-	Node next ;
+	private Node next ;
 	// Data carried by this node. Could be of any type you need, So I am putting Object type.
-	Object data;
+	private Object data;
 	
 	/**
 	 * This constructor create a Node with data value and Next value will be null.
